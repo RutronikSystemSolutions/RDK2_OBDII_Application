@@ -1,4 +1,4 @@
-# RutDevKit-PSoC62-OBDII_Application
+# RDK2-OBDII_Application
 
 Rutronik Development Kit Programmable System-on-Chip CY8C6245AZI-S3D72 "OBD-II Application". 
 
@@ -6,11 +6,16 @@ This application is intended to be used as a reference firmware example for the 
 
  <img src="images/rutdevkit_model.png" style="zoom:20%;" />
 
+## Requirements
+
+- [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) v3.0
+
 ### Using the code example with a ModusToolbox IDE:
 
 1. Import the project: **File** > **Import...** > **General** > **Existing Projects into Workspace** > **Next**.
-2. Select the directory where **"RutDevKit-PSoC62-OBDII_Application"** resides and click  **Finish**.
-3. Select and build the project **Project ** > **Build Project**.
+2. Select the directory where **"RDK2-OBDII_Application"** resides and click  **Finish**.
+3. Update libraries using  a **"Library Manager"** tool.
+4. Select and build the project **Project ** > **Build Project**.
 
 ### Operation
 
@@ -22,7 +27,7 @@ The LED1 and LED2 indicate whether the device has the connection with the CAN ne
 
 ### Debugging
 
-If you successfully have imported the example, the debug configurations are already prepared to use with a the KitProg3, MiniProg4, or J-link. Open the ModusToolbox perspective and find the Quick Panel. Click on the desired debug launch configuration and wait for the programming completes and debug process starts.
+If you successfully have imported the example, the debug configurations are already prepared to use with a the KitProg3, MiniProg4, or J-link. Open the ModusToolbox perspective and find the Quick Panel. Click on the desired debug launch configuration and wait for the programming to complete and debugging process to start.
 
 <img src="images/debug_launch.png" style="zoom:100%;" />
 
